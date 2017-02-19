@@ -1,0 +1,24 @@
+.dividerContainer {
+	height:50px;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+
+.dividerInner {
+	height:20px;
+	width: 100px;
+	margin: auto;
+	padding: 10px;
+	border-radius: 20px;
+	text-align: center;
+	font-size: 18px;
+	background-color: rgba(0,0,0,0.1);
+}
+
+.dividerSide {
+	flex:1;
+	height:1px;
+	margin: auto 10px;
+	background-color: #cccccc;
+}

@@ -1,0 +1,25 @@
+.PannelTitle {
+	color: #333;
+}
+.flexBlock {
+	flex:1;
+}
+.PannelTitleContainer {
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	align-content: center;
+}
+.PannelTime {
+	color: #999;
+}
+.PannelContainer {
+	text-align: left;
+	padding: 10px;
+}
+.allContainer {
+	background-color: rgba(255,255,255,0.6);
+	border: 1px dashed #c8c8c8;
+	margin: 10px;
+	border-radius: 10px;
+}

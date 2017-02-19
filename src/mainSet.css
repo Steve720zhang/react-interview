@@ -1,0 +1,62 @@
+
+.main-container {
+	flex:1;
+	border-radius: 15px;
+	padding: 5px;
+	border: 2px solid #ccc;
+
+	background-color:rgba(255,255,255,0.7);
+	margin: 10px auto;
+	width: 80%;
+	max-width: 1000px;
+	height: auto;
+	min-height: 400px;
+}
+
+.mainBackgroundImageOne {
+	animation: AppLocal-soft-one infinite 10s linear;
+	position: fixed;
+	left:0px;
+	top:0px;
+	width: 120%;
+	height: auto;
+	z-index: -2;
+}
+.mainBackgroundImageTwo {
+	animation: AppLocal-soft-two infinite 10s linear;
+	position: fixed;
+	left:0px;
+	top:0px;
+	width: 120%;
+	height: auto;
+	z-index: -2;
+}
+
+@keyframes AppLocal-soft-one {
+	0%   {left:0px; opacity:0;}
+	20%  {left:-24px; opacity:1;}
+	80%  {left:-96px; opacity:1;}
+	100%  {left:-120px; opacity:0;}
+}
+@keyframes AppLocal-soft-two {
+	0%   {top:0px; opacity:0;}
+	20%  {top:-24px; opacity:1;}
+	80%  {top:-96px; opacity:1;}
+	100%  {top:-120px; opacity:0;}
+}
+
+.textBigTitle {
+
+}
+
+.textNormalTitle {
+
+}
+
+.textNormalContent {
+
+}
+
+.textUnderGrey {
+
+}

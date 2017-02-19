@@ -1,0 +1,30 @@
+.cell-main {
+	display: flex;
+	flex-direction: row;
+}
+
+.cell-inner {
+	flex:1;
+	height: 65px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	margin: 5px;
+	display: flex;
+	background-color: transparent;
+	flex-direction: row;
+	align-content: center;
+	padding: 8px;
+
+}
+.cell-inner:hover {
+	background-color:rgba(25,25,25,0.1);
+}
+.cell-inner:active {
+	background-color:rgba(25,25,25,0.2);
+}
+
+.cell-inner-vain {
+	flex:1;
+	padding: 8px;
+	margin: 5px;
+}

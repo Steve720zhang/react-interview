@@ -1,0 +1,45 @@
+.AppLocal {
+  text-align: center;
+  min-height: 100%;
+  height: auto;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+  z-index: 5;
+}
+
+.App-header-local {
+  background-color:rgba(25,25,25,0.4);
+  height: 150px;
+  z-index: 20;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.footerIntro {
+  padding: 5px;
+  text-align: right;
+  color: #ccc;
+  background: -webkit-linear-gradient(left, transparent , rgba(0,0,0,0.4)); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, transparent, rgba(0,0,0,0.4)); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right, transparent, rgba(0,0,0,0.4)); /* Firefox 3.6 - 15 */
+  background: linear-gradient(to right, transparent , rgba(0,0,0,0.4)); /* 标准的语法（必须放在最后） */
+  max-width: 1000px;
+  width: 80%;
+  margin: auto;
+}
+
+.underFooter {
+  min-height: 300px;
+}
